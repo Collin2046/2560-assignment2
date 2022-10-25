@@ -23,9 +23,9 @@ import Seo from './components/seo.jsx';
 // Home function that is reflected across the site
 export default function Home() {
   return (
-    <Router>
+    <Router >
       <Seo />
-      <main role="main" className="wrapper">
+      <main role="main" className="wrapper" >
         <div className="content">
           {/* Router specifies which component to insert here as the main content */}
           <PageRouter />
@@ -36,7 +36,7 @@ export default function Home() {
         <div className="links">
           <Link href="/">Home</Link>
           <span className="divider">|</span>
-          <Link href="/about">about</Link>
+          <Link href="/about">education</Link>
           <span className="divider">|</span>
           <Link href="/project">project</Link>
           <span className="divider">|</span>

@@ -186,3 +186,22 @@ td {
 .touxiang{
   float: right;
 }
+.visitor{
+  text-align: right;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:blueviolet
+}
+.here{
+  color:#2800FF
+}
+.pic{
+  text-align: center;
+}
+.posVideo{
+  text-align: center;
+}
+img{
+  padding: 5px;
+  border-radius: 5%;
+  border:2px solid grey;
+}

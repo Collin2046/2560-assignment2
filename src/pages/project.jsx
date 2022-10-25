@@ -5,13 +5,13 @@ export default function project() {
     
         return (
             <div className='projects'>
-                <h1>Github:
-                    <a href='https://github.com/Collin2046'>Collin2046</a>
-                </h1>
+                <h2>Github:
+                    <a href='https://github.com/Collin2046'><em>Collin2046</em></a>
+                </h2>
     
-                <h1>
+                <h2>
                     Algorithm Design
-                </h1>
+                </h2>
                 <ul>
                     <li>Design and implement algorithms Ala Carte Multiplication and Rectangle Multiplication.</li>
                     <li>Design and implement algorithms including Dijkstra's algorithm and Floyd’s algorithm to compute all-pair shortest paths in ten given Pittsburgh route graphs. All algorithms are implemented with different data structures(2D array and linkedlist) for comparing time performance.</li>
@@ -21,9 +21,9 @@ export default function project() {
                 </ul>
     
                 <br />
-                <h1>
+                <h2>
                     Machine Learning
-                </h1>
+                </h2>
                 <p>
                     Two real datasets and one constructed datasets from a local company in Pittsburgh. Datasets consist of over 40 attributes. The methods for training include logistic regression, neural network, GBM, Bayesian linear models, etc. Nearly 1500 lines of codes to finish.
                 </p>
@@ -35,10 +35,10 @@ export default function project() {
                     <li>Identify if the dataset constructed based on the real dataset gives models with better performance. 6. Identify the most important variables associated with the best models.</li>
                 </ul>
                 <br />
-                <h1>
+                <h2>
                     Data Mining
     
-                </h1>
+                </h2>
                 <h3>
                     Research topic: Credit card fraud detection research based on oversampling and undersampling
                 </h3>
@@ -52,9 +52,9 @@ export default function project() {
                     <li>Performance comparison and analysis(metrics include accuracy, auc, and mainly focus on precision).</li>
                 </ul>
                 <br />
-                <h1>
+                <h2>
                     Database System for E-Commerce
-                </h1>
+                </h2>
                 <p>
                     A database system that supports
     

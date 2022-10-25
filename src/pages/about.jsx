@@ -14,7 +14,7 @@ export default function Education() {
     <div className="page">
       <div className="education">
             <div>
-                <h2>University of Pittsburgh</h2>
+                <h1>University of Pittsburgh</h1>
                 <ul>
                     <li>Master, Information Science</li>
                     <li>GPA: 3.9</li>
@@ -23,15 +23,20 @@ export default function Education() {
                 </ul>
             </div>
             <div>
-                <h2>
+              <img src="https://www.ivy-international.org/wp-content/uploads/2019/01/University-of-Pittsburgh.jpg" width="800px" ></img>
+            </div>
+            <div>
+                <h1>
                     Shandong University Of Science And Technology
-                </h2>
+                </h1>
                 <ul>
                     <li>bachelor, Geomatics</li>
                     <li>GPA: 82%</li>
                     <li>Sep 2016 - June 2020, Qingdao, Shandong, China</li>
                 </ul>
+                
             </div>
+            <img src="http://5b0988e595225.cdn.sohucs.com/images/20190403/a9f5b6494a4d4158b18b39e706ee0602.jpeg" width="800px" ></img>
         </div>
     </div>
   );

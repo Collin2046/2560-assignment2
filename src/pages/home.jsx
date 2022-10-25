@@ -4,18 +4,9 @@ import { useWiggle } from "../hooks/wiggle";
 import { Link } from "wouter";
 
 // Our language strings for the header
-const strings = [
-  "Hello React",
-  "Salut React",
-  "Hola React",
-  "안녕 React",
-  "Hej React"
-];
 
 // Utility function to choose a random value from the language array
-function randomLanguage() {
-  return strings[Math.floor(Math.random() * strings.length)];
-}
+
 
 /**
 * The Home function defines the content that makes up the main content of the Home page
@@ -24,13 +15,31 @@ function randomLanguage() {
 * The function in app.jsx defines the page wrapper that this appears in along with the footer
 */
 
+
+function Visiter() {
+  return (
+      <div className="visitor">
+          <p>🎉Welcome🎉 {agent}!</p>
+      </div>
+  )
+}
+
+var agent;
+function Welcome() {
+    while (agent == null) {
+        agent = prompt("Welcome to Collin's blog, Please enter your name below!")
+    }
+}
+
 export default function Home() {
   return(
 
     <div>
+      <Welcome/>
+            <Visiter/>
       <div className='bannerInfo'>
-            
-            <div className='PerInfo'>
+        
+            <div >
                 <div>
                     <h1 className="name">
                         Kelin He    
