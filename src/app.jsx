@@ -19,12 +19,25 @@ import PageRouter from "./components/router.jsx";
 
 // The component that adds our Meta tags to the page
 import Seo from './components/seo.jsx';
-
+var agent;
+function Welcome() {
+    while (agent == null) {
+        agent = prompt("Welcome to Collin's blog, Please enter your name below!")
+    }
+}
+function Visiter() {
+  return (
+      <div className="visitor">
+          <p id="vis">🎉Welcome🎉 {agent}!</p>
+      </div>
+  )
+}
 // Home function that is reflected across the site
 export default function Home() {
   return (
     <Router >
       <Seo />
+      <Welcome/>
       <main role="main" className="wrapper" >
         <div className="content">
           {/* Router specifies which component to insert here as the main content */}
@@ -44,7 +57,7 @@ export default function Home() {
           <span className="divider">|</span>
           <Link href="/hobby">hobby</Link>
         </div>
-        
+        <Visiter/>
       </footer>
     </Router>
   );

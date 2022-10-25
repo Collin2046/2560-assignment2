@@ -16,27 +16,14 @@ import { Link } from "wouter";
 */
 
 
-function Visiter() {
-  return (
-      <div className="visitor">
-          <p>🎉Welcome🎉 {agent}!</p>
-      </div>
-  )
-}
 
-var agent;
-function Welcome() {
-    while (agent == null) {
-        agent = prompt("Welcome to Collin's blog, Please enter your name below!")
-    }
-}
 
 export default function Home() {
   return(
 
     <div>
-      <Welcome/>
-            <Visiter/>
+      
+            
       <div className='bannerInfo'>
         
             <div >

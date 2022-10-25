@@ -189,7 +189,13 @@ td {
 .visitor{
   text-align: right;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  color:blueviolet
+
+}
+#vis{
+  display: inline-block;
+  color:rgb(128, 18, 230);
+  border: 5px solid;
+  border-radius: 10%;
 }
 .here{
   color:#2800FF
@@ -197,11 +203,18 @@ td {
 .pic{
   text-align: center;
 }
-.posVideo{
-  text-align: center;
+
+.video{
+  position:relative;
+  left: 17%;
+  
+  padding: 5px;
+  border:10px double grey;
+  
 }
+
 img{
   padding: 5px;
   border-radius: 5%;
-  border:2px solid grey;
+  border:10px double grey;
 }
